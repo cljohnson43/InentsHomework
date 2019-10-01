@@ -9,4 +9,7 @@
     <string name="etNumberHint">Enter Number</string>
     <string name="etAgeHint">Enter Age</string>
     <string name="btnSubmit">Submit Info</string>
+    <string name="tvLoanAmount">Loan Amount</string>
+    <string name="tvInterestRate">Interest Rate</string>
+    <string name="tvLoanTerm">Loan Term</string>
 </resources>
