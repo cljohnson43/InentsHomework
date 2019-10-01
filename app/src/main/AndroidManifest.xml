@@ -4,7 +4,7 @@
 
     <uses-feature
         android:name="android.hardware.camera"
-        android:required="true"/>
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -14,9 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AddPerson"
+            android:label="@string/title_activity_add_person"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Rolodex" />
+        <activity
             android:name=".DisplayImage"
             android:label="@string/title_activity_display_image"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

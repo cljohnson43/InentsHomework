@@ -16,12 +16,18 @@ class MainActivity : AppCompatActivity() {
     fun onClick(view: View) {
         when (view.id) {
             R.id.btnDisplayImageActivity -> startDisplayImageActivity()
+            R.id.btnGoToRolodex -> startRolodexActivity()
         }
 
     }
 
     fun startDisplayImageActivity() {
         val intent = Intent(this, DisplayImage::class.java)
+        startActivity(intent)
+    }
+
+    fun startRolodexActivity() {
+        val intent = Intent(this, Rolodex::class.java)
         startActivity(intent)
     }
 }

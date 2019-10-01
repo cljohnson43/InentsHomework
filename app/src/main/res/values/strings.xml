@@ -2,4 +2,11 @@
     <string name="app_name">InentsHomework</string>
     <string name="title_activity_display_image">DisplayImage</string>
     <string name="btnDisplayImageActivity">Go to image activity</string>
+    <string name="btnGoToRolodex">Go to person list</string>
+    <string name="title_activity_add_person">AddPerson</string>
+    <string name="etNameHint">Enter Name</string>
+    <string name="etEmailHint">Enter Email</string>
+    <string name="etNumberHint">Enter Number</string>
+    <string name="etAgeHint">Enter Age</string>
+    <string name="btnSubmit">Submit Info</string>
 </resources>
