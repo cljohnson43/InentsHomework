@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">InentsHomework</string>
+    <string name="title_activity_display_image">DisplayImage</string>
+    <string name="btnDisplayImageActivity">Go to image activity</string>
 </resources>
