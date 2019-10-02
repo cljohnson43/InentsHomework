@@ -12,4 +12,5 @@
     <string name="tvLoanAmount">Loan Amount</string>
     <string name="tvInterestRate">Interest Rate</string>
     <string name="tvLoanTerm">Loan Term</string>
+    <string name="btnGoToEMICalculator">Go to EMI Calculator</string>
 </resources>

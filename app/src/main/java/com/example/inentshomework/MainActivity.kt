@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         when (view.id) {
             R.id.btnDisplayImageActivity -> startDisplayImageActivity()
             R.id.btnGoToRolodex -> startRolodexActivity()
+            R.id.btnGoToEMICalculator -> startEMICalculatorActivity()
         }
 
     }
@@ -28,6 +29,11 @@ class MainActivity : AppCompatActivity() {
 
     fun startRolodexActivity() {
         val intent = Intent(this, Rolodex::class.java)
+        startActivity(intent)
+    }
+
+    fun startEMICalculatorActivity() {
+        val intent = Intent(this, EMICalculator::class.java)
         startActivity(intent)
     }
 }
